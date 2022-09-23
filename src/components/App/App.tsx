@@ -20,7 +20,7 @@ export function App() {
     return (
         <ThemeProvider theme={ThemeCreator(theme as PaletteType)}>
             <FormspreeProvider>
-                <Router>
+                <Router basename='/szymon_jergas-portfolio'>
                     <AppPage />
                 </Router>
             </FormspreeProvider>
