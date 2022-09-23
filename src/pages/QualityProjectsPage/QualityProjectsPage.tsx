@@ -54,17 +54,17 @@ export function QualityProjectsPage() {
                 <LinkImage 
                     img={'/static/images/box-sizer.png'}
                     text={'The Box-Sizer'}
-                    path={'/box-sizer'}
+                    path={'https://dilinar.github.io/szymon_jergas-portfolio/box-sizer'}
                 />
                 <LinkImage 
                     img={'/static/images/increase-calculator.png'}
                     text={'Increase Calculator'}
-                    path={'/increase_calculator'}
+                    path={'https://dilinar.github.io/szymon_jergas-portfolio/increase_calculator'}
                 />
                 <LinkImage 
                     img={'/static/images/feel-good.png'}
                     text={'Feel Good App'}
-                    path={'/feel_good'}
+                    path={'https://dilinar.github.io/szymon_jergas-portfolio/feel_good'}
                 />
             </div>
         </div>

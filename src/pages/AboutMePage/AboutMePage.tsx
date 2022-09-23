@@ -68,7 +68,7 @@ export function AboutMePage() {
                     <LinkImage 
                         img={'/static/images/projects.png'}
                         text={translate('projects')}
-                        path={'/https://dilinar.github.io/szymon_jergas-portfolio/projects'}
+                        path={'https://dilinar.github.io/szymon_jergas-portfolio/projects'}
                     />
                     <LinkImage 
                         img={'/static/images/shop.png'}

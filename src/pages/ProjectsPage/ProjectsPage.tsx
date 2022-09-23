@@ -47,7 +47,7 @@ export function ProjectsPage() {
                     <LinkImage 
                         img={'/static/images/work-app.png'}
                         text={'Work Management App'}
-                        path={'https://dilinar.github.io/szymon_jergas-portfolio/work_management_app'}
+                        path={'/work_management_app'}
                     />
                     <LinkImage 
                         img={'/static/images/portfolio.png'}
