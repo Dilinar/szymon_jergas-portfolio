@@ -47,7 +47,7 @@ export function ProjectsPage() {
                     <LinkImage 
                         img={'/static/images/work-app.png'}
                         text={'Work Management App'}
-                        path={'/work_management_app'}
+                        path={'/work_management_app_page'}
                     />
                     <LinkImage 
                         img={'/static/images/portfolio.png'}
