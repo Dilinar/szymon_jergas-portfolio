@@ -1,6 +1,6 @@
 # My Portfolio
 
-Link to project: https://github.com/Dilinar/szymon_jergas-portfolio
+Link to project: https://dilinar.github.io/szymon_jergas-portfolio/
 
 # Running the project locally
 
