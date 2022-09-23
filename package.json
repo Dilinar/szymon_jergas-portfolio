@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://dilinar.github.io/szymon_jergas-portfolio/",
   "version": "1.0.0",
   "description": "Just my portfolio",
   "main": "index.js",

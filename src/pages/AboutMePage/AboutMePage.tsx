@@ -49,7 +49,7 @@ export function AboutMePage() {
             <Slide direction='right' in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
                 <div>
                     <LinkImage 
-                        img={'/static/images/portrait.png'}
+                        img={'../../docs/static/images/portrait.png'}
                         text={'Szymon Jergas'}
                         path={'https://github.com/Dilinar'}
                     />
