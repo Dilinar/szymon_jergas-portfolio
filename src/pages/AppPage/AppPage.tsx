@@ -1,11 +1,7 @@
 /* Libraries */
-import { TypedUseSelectorHook, useSelector as reduxUseSelector } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
-import { makeStyles, PaletteType, Paper } from '@material-ui/core';
-import { ThemeProvider } from '@material-ui/core';
-
-/* Types */
-import { State } from '../../types/Redux';
+import { makeStyles, Paper } from '@material-ui/core';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 /* Application files */
 import ThemeSelector from '../../components/ThemeSelector';
@@ -13,7 +9,6 @@ import DarkThemeBackground from '../../assets/images/dark.jpg';
 import LightThemeBackground from '../../assets/images/bright.jpg';
 import LanguageSelector from '../../components/LanguageSelector';
 import AboutMePage from '../AboutMePage';
-import { ThemeCreator } from '../../lib/theme';
 import ProjectsPage from '../ProjectsPage';
 import ContactForm from '../../components/ContactForm';
 import WorkAppPage from '../WorkAppPage';
@@ -23,7 +18,6 @@ import BoxSizerPage from '../BoxSizerPage';
 import IncreaseCalculatorPage from '../IncreaseCalculatorPage';
 import FeelGoodPage from '../FeelGoodPage';
 
-const useSelector = reduxUseSelector as TypedUseSelectorHook<State>;
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -73,19 +67,18 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export function AppPage() {
-    const theme = useSelector((state) => state.ui.themeMode);
 
     const classes = useStyles();
 
     return (
-        <ThemeProvider theme={ThemeCreator(theme as PaletteType)}>
-            <Paper className={classes.root}>
-                <div className={classes.langSelector}>
-                    <LanguageSelector />
-                </div>
-                <div className={classes.themeSelector}>
-                    <ThemeSelector />
-                </div>
+        <Paper className={classes.root}>
+            <div className={classes.langSelector}>
+                <LanguageSelector />
+            </div>
+            <div className={classes.themeSelector}>
+                <ThemeSelector />
+            </div>
+            <Router basename='/szymon_jergas-portfolio'>
                 <Switch>
                     <Route path='/' exact component={AboutMePage} />
                     <Route path='/projects' component={ProjectsPage} />
@@ -96,9 +89,9 @@ export function AppPage() {
                     <Route path='/increase_calculator' component={IncreaseCalculatorPage} />
                     <Route path='/feel_good' component={FeelGoodPage} />
                 </Switch>
-                <ContactForm />
-            </Paper>
-        </ThemeProvider>
+            </Router>
+            <ContactForm />
+        </Paper>
     );
 }
 
