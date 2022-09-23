@@ -66,12 +66,12 @@ export function AboutMePage() {
             <Fade in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
                 <div className={classes.imageContainer}>
                     <LinkImage 
-                        img={'/static/images/projects.png'}
+                        img={'static/images/projects.png'}
                         text={translate('projects')}
                         path={'projects'}
                     />
                     <LinkImage 
-                        img={'/static/images/shop.png'}
+                        img={'static/images/shop.png'}
                         text={translate('shop')}
                         path={'https://slavicayarns.pl/'}
                     />
