@@ -46,14 +46,14 @@ export function ProjectPanel(props: Props) {
         <div className={classes.root}>
             <a href={gitPath} className={classes.icon}>
                 {themeMode === 'dark' ?
-                    <img src={'/static/icons/githubDark.png'} /> :
-                    <img src={'/static/icons/githubBright.png'} />
+                    <img src={'static/icons/githubDark.png'} /> :
+                    <img src={'static/icons/githubBright.png'} />
                 }
             </a>
             <a href={hostPath} className={classes.icon}>
                 {themeMode === 'dark' ?
-                    <img src={'/static/icons/hostedDark.png'} /> :
-                    <img src={'/static/icons/hostedBright.png'} />
+                    <img src={'static/icons/hostedDark.png'} /> :
+                    <img src={'static/icons/hostedBright.png'} />
                 }
             </a>
         </div>

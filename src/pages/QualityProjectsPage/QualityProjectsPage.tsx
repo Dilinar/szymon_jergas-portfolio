@@ -52,17 +52,17 @@ export function QualityProjectsPage() {
             />
             <div className={classes.imageContainer}>
                 <LinkImage 
-                    img={'/static/images/box-sizer.png'}
+                    img={'static/images/box-sizer.png'}
                     text={'The Box-Sizer'}
                     path={'box-sizer'}
                 />
                 <LinkImage 
-                    img={'/static/images/increase-calculator.png'}
+                    img={'static/images/increase-calculator.png'}
                     text={'Increase Calculator'}
                     path={'increase_calculator'}
                 />
                 <LinkImage 
-                    img={'/static/images/feel-good.png'}
+                    img={'static/images/feel-good.png'}
                     text={'Feel Good App'}
                     path={'feel_good'}
                 />
