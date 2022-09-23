@@ -59,7 +59,7 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 { from: './src/style.css', to: './' },
-                { from: './src/assets', to: 'static/' }
+                { from: './src/assets/images', to: 'static/' }
             ]
         }),
         new HotModuleReplacementPlugin()

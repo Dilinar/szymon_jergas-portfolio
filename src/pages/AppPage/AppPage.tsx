@@ -82,7 +82,7 @@ export function AppPage() {
                 <Switch>
                     <Route path='/' exact component={AboutMePage} />
                     <Route path='/projects' component={ProjectsPage} />
-                    <Route path='/work_management_app_page' component={WorkAppPage} />
+                    <Route path='/work_management_app' component={WorkAppPage} />
                     <Route path='/portfolio' component={PortfolioAppPage} />
                     <Route path='/quality_of_life' component={QualityProjectsPage} />
                     <Route path='/box-sizer' component={BoxSizerPage} />
