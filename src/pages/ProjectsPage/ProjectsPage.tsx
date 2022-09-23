@@ -47,17 +47,17 @@ export function ProjectsPage() {
                     <LinkImage 
                         img={'/static/images/work-app.png'}
                         text={'Work Management App'}
-                        path={'/work_management_app'}
+                        path={'work_management_app'}
                     />
                     <LinkImage 
                         img={'/static/images/portfolio.png'}
                         text={translate('portfolio')}
-                        path={'https://dilinar.github.io/szymon_jergas-portfolio/portfolio'}
+                        path={'portfolio'}
                     />
                     <LinkImage 
                         img={'/static/images/quality.png'}
                         text={translate('quality')}
-                        path={'https://dilinar.github.io/szymon_jergas-portfolio/quality_of_life'}
+                        path={'quality_of_life'}
                     />
                 </div>
             </Fade>
