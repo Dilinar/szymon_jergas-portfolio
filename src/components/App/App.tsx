@@ -2,7 +2,6 @@
 import { PaletteType } from '@material-ui/core';
 import { TypedUseSelectorHook, useSelector as reduxUseSelector } from 'react-redux';
 import { ThemeProvider } from '@material-ui/core';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { FormspreeProvider } from '@formspree/react';
 
 /* Types */
@@ -20,9 +19,7 @@ export function App() {
     return (
         <ThemeProvider theme={ThemeCreator(theme as PaletteType)}>
             <FormspreeProvider>
-                <Router basename='/szymon_jergas-portfolio'>
-                    <AppPage />
-                </Router>
+                <AppPage />
             </FormspreeProvider>
         </ThemeProvider>
     );
