@@ -45,19 +45,19 @@ export function ProjectsPage() {
             <Fade in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
                 <div className={classes.imageContainer}>
                     <LinkImage 
-                        img={'static/images/work-app.png'}
-                        text={'Work Management App'}
-                        path={'work_management_app'}
+                        img='static/images/work-app.png'
+                        text='Work Management App'
+                        path='work_management_app'
                     />
                     <LinkImage 
-                        img={'static/images/portfolio.png'}
+                        img='static/images/portfolio.png'
                         text={translate('portfolio')}
-                        path={'portfolio'}
+                        path='portfolio'
                     />
                     <LinkImage 
-                        img={'static/images/quality.png'}
+                        img='static/images/quality.png'
                         text={translate('quality')}
-                        path={'quality_of_life'}
+                        path='quality_of_life'
                     />
                 </div>
             </Fade>

@@ -49,9 +49,9 @@ export function AboutMePage() {
             <Slide direction='right' in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
                 <div>
                     <LinkImage 
-                        img={'static/images/portrait.png'}
-                        text={'Szymon Jergas'}
-                        path={'https://github.com/Dilinar'}
+                        img='static/images/portrait.png'
+                        text='Szymon Jergas'
+                        path='https://github.com/Dilinar'
                     />
                 </div>
             </Slide>
@@ -66,14 +66,14 @@ export function AboutMePage() {
             <Fade in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
                 <div className={classes.imageContainer}>
                     <LinkImage 
-                        img={'static/images/projects.png'}
+                        img='static/images/projects.png'
                         text={translate('projects')}
-                        path={'projects'}
+                        path='projects'
                     />
                     <LinkImage 
-                        img={'static/images/shop.png'}
+                        img='static/images/shop.png'
                         text={translate('shop')}
-                        path={'https://slavicayarns.pl/'}
+                        path='https://slavicayarns.pl/'
                     />
                 </div>
             </Fade>
