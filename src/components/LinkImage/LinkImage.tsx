@@ -1,5 +1,6 @@
 /* Libraries */
 import { makeStyles } from '@material-ui/core';
+import { NavLink } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -38,15 +39,28 @@ type Props ={
 
 export function LinkImage(props: Props) {
     const classes = useStyles();
+
     const image = props.img;
     const text = props.text;
     const path = props.path;
 
+    const EXTERNAL_PROTOCOLS = [ 'http', 'https' ];
+
+    const isExternal = EXTERNAL_PROTOCOLS.some((p) => path.startsWith(`${p}://`));
+    
     return (
-        <a href={path} className={classes.root}>
-            <img src={image} />
-            <h3>{text}</h3>
-        </a>
+        <div>
+            {isExternal === true ?
+                <a href={path} className={classes.root}>
+                    <img src={image} />
+                    <h3>{text}</h3>
+                </a> :
+                <NavLink to={path} className={classes.root}>
+                    <img src={image} />
+                    <h3>{text}</h3>
+                </NavLink>
+            }
+        </div>
     );
 }
 
