@@ -68,12 +68,12 @@ export function AboutMePage() {
                     <LinkImage 
                         img='static/images/projects.png'
                         text={translate('projects')}
-                        path='projects'
+                        path='/projects'
                     />
                     <LinkImage 
                         img='static/images/shop.png'
                         text={translate('shop')}
-                        path='https://slavicayarns.pl/'
+                        path='https://slavicayarns.pl'
                     />
                 </div>
             </Fade>
