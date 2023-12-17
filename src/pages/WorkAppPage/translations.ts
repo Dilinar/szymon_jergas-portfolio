@@ -44,7 +44,6 @@ export default {
             'The middle, or left part of the app (depending on the screen width, so let\'s call it the main part) is where you\'ll be using the always popular to-do list, which will most likely be the main tool.',
             'And when the work day is over, the main part can also be host to your very own workout routine. In the "Workout Calendar" tool to add up to 7 list elements to write down your workout routine. Working out after a day of sitting is what I like to do each day. So having easy and quick access to my weekly routine is important for me. The default view of this section is the notepad.',
             'Besides the left panel with buttons to the various sub-pages, we also have Breadcrumbs provided by Material UI. I know that a functionality to track your location on a website is overkill for something this small, but I wanted to integrate it for practice purposes.'
-
         ]
     },
     technologiesHeader: {
