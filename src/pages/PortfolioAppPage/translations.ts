@@ -13,7 +13,7 @@ export default {
     summary: {
         pl: [
             'Tak, wiem, włączenie swojego portfolio jako projektu do portfolio jest nietypowe.',
-            'Ale jak przy każdym projekcie, tak i przy tym starałem się nauczyć czegoś nowego podczas pracy nad nim. Dlatego zdecydowałem że powinien mieć swoje miejsce tutaj.'
+            'Ale jak przy każdym projekcie, tak i przy tym starałem się nauczyć czegoś nowego podczas pracy nad nim. Dlatego zdecydowałem, że powinien mieć swoje miejsce tutaj.'
         ],
         en: [
             'Yes, I know, including one\'s portfolio as a portfolio project is unorthodox.',
@@ -30,7 +30,7 @@ export default {
     },
     features: {
         pl: [
-            'Jeśli chodzi o funkcje to nie ma za bardzo o czym mówić. W końcu jest to portfolio, w którym pokazuję inne swoje projekty.',
+            'Jeśli chodzi o funkcje to nie ma za bardzo, o czym mówić. W końcu jest to portfolio, w którym pokazuję inne swoje projekty.',
             'Ale są 3 rzeczy, których nie ma żaden z moich innych projektów.',
             'Po pierwsze, mamy selektor języka, pozwalający zmienić język na polski lub angielski.',
             'Po drugie, selektor motywów. Pozwala on na zmianę motywu na ciemny lub jasny.',
@@ -46,7 +46,7 @@ export default {
     },
     technologiesHeader: {
         pl: [
-            'Zastpspwane technologie'
+            'Zastosowane technologie'
         ],
         en: [
             'Technologies used'
@@ -71,14 +71,14 @@ export default {
     lessons: {
         pl: [
             '- Wyciągnięcie logiki zmiany języka z kodu mojego sklepu i wykorzystanie jej we własnym projekcie',
-            '- Stworzenie komponentu selektora motywów w oparciu o wcześniej wyodrębnioną logikę zmiany języka',
+            '- Stworzenie komponentu selektora motywów na podstawie wcześniej wyodrębnionej logiki zmiany języka',
             '- Wybranie wszystkich kolorów i obrazów motywu, aby elementy wyglądały zwięźle',
             '- Animowanie komponentów przy użyciu funkcjonalności wbudowanych w Material UI',
             '- Stworzenie formularza kontaktowego z wykorzystaniem biblioteki Formspree i Material UI do kontroli i stylizacji formularza.',
             '- Rozróżnienie pomiędzy stronami i komponentami oraz ich odpowiednie podzielenie w strukturze plików projektu'
         ],
         en: [
-            '- Extracting the language changing logic from my shops code and using it in my own project',
+            '- Extracting the language changing logic from my shop\'s code and using it in my own project',
             '- Creating a theme selector component based on the previously extracted language change logic',
             '- Putting together all theme colours and images in order to make the elements look concise',
             '- Animating components using the build in functionalities of Material UI',
