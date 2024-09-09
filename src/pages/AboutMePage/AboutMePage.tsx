@@ -58,8 +58,16 @@ export function AboutMePage() {
             <Slide direction='left' in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
                 <div>
                     <InfoBox 
-                        header={translate('header')}
+                        header={translate('headerBio')}
                         text={translate('bio')}
+                    />
+                </div>
+            </Slide>
+            <Slide direction='right' in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
+                <div>
+                    <InfoBox 
+                        header={translate('headerExperience')}
+                        text={translate('experience')}
                     />
                 </div>
             </Slide>
