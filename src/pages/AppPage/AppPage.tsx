@@ -17,6 +17,7 @@ import PortfolioAppPage from '../PortfolioAppPage';
 import BoxSizerPage from '../BoxSizerPage';
 import IncreaseCalculatorPage from '../IncreaseCalculatorPage';
 import FeelGoodPage from '../FeelGoodPage';
+import Buffout from '../Buffout';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -87,6 +88,7 @@ export function AppPage() {
                     <Route path='/box-sizer' component={BoxSizerPage} />
                     <Route path='/increase_calculator' component={IncreaseCalculatorPage} />
                     <Route path='/feel_good' component={FeelGoodPage} />
+                    <Route path='/buffout' component={Buffout} />
                 </Switch>
             </Router>
             <ContactForm />

@@ -45,6 +45,11 @@ export function ProjectsPage() {
             <Fade in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
                 <div className={classes.imageContainer}>
                     <LinkImage 
+                        img='static/images/buffout.png'
+                        text='Buffout'
+                        path='buffout'
+                    />
+                    <LinkImage 
                         img='static/images/work-app.png'
                         text='Work Management App'
                         path='work_management_app'
