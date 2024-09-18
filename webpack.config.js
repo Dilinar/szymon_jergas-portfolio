@@ -12,8 +12,9 @@ module.exports = {
         path: path.resolve(__dirname, './docs'),
         filename: 'index.js',
         /*Switch the following 2 lines to run the project localy*/
-        publicPath: '/docs/'
-        // publicPath: '/'
+        publicPath: '/'
+        // publicPath: '/docs/'
+        
     },
     resolve: {
         extensions: [ '.js', '.ts', '.tsx' ],
