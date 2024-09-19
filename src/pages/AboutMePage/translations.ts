@@ -29,8 +29,8 @@ export default {
         ]
     },
     headerExperience: {
-        pl: 'Doświadczenie zawodowe:',
-        en:  'Professional experience:'
+        pl: 'Doświadczenie zawodowe',
+        en:  'Professional experience'
     },
     experience: {
         pl: [
@@ -41,6 +41,10 @@ export default {
             'I have almost 2 years of professional experience working with React.js and also happened to help work on a mobile application in React Native using TypeScript.',
             'Now I\'ve started my backend adventure, I\'ve finished a MERN course and I\'m in the process of writing my first full-stack application.'
         ]
+    },
+    headerRecomendations: {
+        pl: 'Referencje',
+        en: 'Recommendations'
     },
     projects: {
         pl: 'Moje projekty',

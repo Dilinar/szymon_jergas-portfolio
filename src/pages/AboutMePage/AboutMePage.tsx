@@ -14,6 +14,7 @@ import translateUsing from '../../lib/translation';
 import translations from './translations';
 import LinkImage from '../../components/LinkImage';
 import InfoBox from '../../components/InfoBox';
+import FilesList from '../../components/FilesList';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -43,6 +44,11 @@ export function AboutMePage() {
     const classes = useStyles();
     const language = useSelector((state) => state.ui.language);
     const translate = translateUsing(translations, language);
+
+    const files = [
+        { name: 'Euros Energy', path: 'static/files/Referencje-EurosEnergy.pdf' },
+        { name: 'CV', path: 'static/files/CV-SzymonJergas.pdf' },
+    ];
  
     return (
         <div className={classes.root}>
@@ -68,6 +74,14 @@ export function AboutMePage() {
                     <InfoBox 
                         header={translate('headerExperience')}
                         text={translate('experience')}
+                    />
+                </div>
+            </Slide>
+            <Slide direction='left' in={true} appear={true} timeout={1200} mountOnEnter unmountOnExit>
+                <div>
+                    <FilesList
+                        header={translate('headerRecomendations')}
+                        files={files}
                     />
                 </div>
             </Slide>
