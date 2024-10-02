@@ -47,7 +47,7 @@ export function AboutMePage() {
 
     const files = [
         { name: 'Euros Energy', path: 'static/files/Referencje-EurosEnergy.pdf' },
-        { name: 'CV', path: 'static/files/CV-SzymonJergas.pdf' },
+        { name: 'CV', path: 'static/files/SzymonJergas-CV.pdf' },
     ];
  
     return (
