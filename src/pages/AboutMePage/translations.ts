@@ -44,7 +44,7 @@ export default {
     },
     headerRecomendations: {
         pl: 'Referencje',
-        en: 'Recommendations'
+        en: 'References'
     },
     projects: {
         pl: 'Moje projekty',
